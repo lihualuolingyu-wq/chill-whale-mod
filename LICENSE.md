@@ -10,7 +10,7 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh-hans
 - 非商业性使用：不得用于商业目的（包括付费下载、付费转售）。
 - 相同方式共享：改编后的作品须以相同许可发布。
 
-模型改编自 DeepSeek 角色 Blender 模型（作者 xxxxxxur，https://github.com/xxxxxxur/deepseek-blender-model ，CC BY-NC-SA 4.0）。
+模型改编自 DeepSeek 角色 Blender 模型：3D 模型作者 B 站 UP 主 @大鹅追鸭（GitHub xxxxxxur，https://github.com/xxxxxxur/deepseek-blender-model ，CC BY-NC-SA 4.0）；角色形象作者 B 站 @ZipZipPipe。
 
 ## 第三方内容
 
