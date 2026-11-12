@@ -1,5 +1,5 @@
 using System; using System.IO; using System.Text; using System.Globalization; using System.Collections.Generic; using UnityEngine;
-// DeepSeek (小鲸鲸) runtime for Chill with You: sets bone localPositions to the model's proportions every LateUpdate.
+// DeepSeek (蓝色大肥鱼) runtime for Chill with You: sets bone localPositions to the model's proportions every LateUpdate.
 public static class WhaleFingerProbe {
  struct E{public string n;public Vector3 p;public E(string a,Vector3 b){n=a;p=b;}}
  static E[] entries={

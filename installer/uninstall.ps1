@@ -1,4 +1,4 @@
-﻿# 小鲸鲸 MOD 卸载脚本：用 backup\ 里的原版文件恢复游戏，并删除 MOD 程序与中文配音。
+﻿# 蓝色大肥鱼 MOD 卸载脚本：用 backup\ 里的原版文件恢复游戏，并删除 MOD 程序与中文配音。
 param([string]$GameData)
 $ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)

@@ -1,4 +1,4 @@
-﻿# 小鲸鲸 MOD 安装脚本（Chill with You : Lo-Fi Story，Steam 版本号 26586283）
+﻿# 蓝色大肥鱼 MOD 安装脚本（Chill with You : Lo-Fi Story，Steam 版本号 26586283）
 # 不附带任何游戏文件：在你自己的游戏文件上打补丁，原版文件先备份到本文件夹的 backup\。
 param([string]$GameData)
 $ErrorActionPreference = 'Stop'
@@ -73,5 +73,5 @@ if (Test-Path $voice) {
 } else { Write-Host '没有找到 WhaleVoice 文件夹，跳过中文配音（只装模型）。' }
 
 Write-Host ''
-Write-Host '[完成] 小鲸鲸 MOD 已安装。启动游戏即可。' -ForegroundColor Green
+Write-Host '[完成] 蓝色大肥鱼 MOD 已安装。启动游戏即可。' -ForegroundColor Green
 Write-Host '提示：游戏设置里的语音音量需要打开才能听到配音。'
