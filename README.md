@@ -4,7 +4,7 @@
 
 **完全免费，仅限个人非商业使用。** 本 MOD 为玩家自制，与游戏开发商 Nestopi 无关，需要正版游戏。
 
-<!-- 宣传视频链接：发布后填写 B 站地址 -->
+**宣传视频**：[B 站 BV1UQWo6TEqT](https://www.bilibili.com/video/BV1UQWo6TEqT/)
 
 ## 功能
 
