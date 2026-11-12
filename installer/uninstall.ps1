@@ -2,7 +2,7 @@
 param([string]$GameData)
 $ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
-$Orig = @{ 'sharedassets3.assets' = 'ed1ad6f0b82188d915fad5227746c75aab24750398ef0c0cf23be25856f64ec3'; 'level3' = '1701ca96427538d1c747663b420b03c1d224179103d5d74a8da1d558259c3105' }
+$Orig = @{ 'sharedassets3.assets' = 'a3966ccb61b48e5cfd367faf61c5ee3f5b1a32818034eb752aafda3fc079f722'; 'level3' = '58d70b902026cfe5e91db05e6c7c1b61ec55909ecea86fbb2b938918ce62ca8c' }
 function Fail($m) { Write-Host ''; Write-Host "[失败] $m" -ForegroundColor Red; exit 1 }
 function Sha($p) { (Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash.ToLower() }
 function SaveJson($p, $o) { [IO.File]::WriteAllText($p, ($o | ConvertTo-Json -Depth 6 -Compress), (New-Object Text.UTF8Encoding $false)) }

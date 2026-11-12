@@ -1,10 +1,10 @@
-﻿# 小鲸鲸 MOD 安装脚本（Chill with You : Lo-Fi Story，Steam 版本号 26291741）
+﻿# 小鲸鲸 MOD 安装脚本（Chill with You : Lo-Fi Story，Steam 版本号 26586283）
 # 不附带任何游戏文件：在你自己的游戏文件上打补丁，原版文件先备份到本文件夹的 backup\。
 param([string]$GameData)
 $ErrorActionPreference = 'Stop'
 $Root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
-$Build = '26291741'; $AppId = '3548580'
-$Orig = @{ 'sharedassets3.assets' = 'ed1ad6f0b82188d915fad5227746c75aab24750398ef0c0cf23be25856f64ec3'; 'level3' = '1701ca96427538d1c747663b420b03c1d224179103d5d74a8da1d558259c3105' }
+$Build = '26586283'; $AppId = '3548580'
+$Orig = @{ 'sharedassets3.assets' = 'a3966ccb61b48e5cfd367faf61c5ee3f5b1a32818034eb752aafda3fc079f722'; 'level3' = '58d70b902026cfe5e91db05e6c7c1b61ec55909ecea86fbb2b938918ce62ca8c' }
 $Mod = Get-Content -Raw -LiteralPath "$Root\tools\hashes.json" | ConvertFrom-Json
 function Fail($m) { Write-Host ''; Write-Host "[失败] $m" -ForegroundColor Red; exit 1 }
 function Sha($p) { (Get-FileHash -LiteralPath $p -Algorithm SHA256).Hash.ToLower() }
